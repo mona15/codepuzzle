@@ -1,2 +1,3 @@
-Web app that shows a seat view and shows the best available seats based on the requested number of seats
-get multiple seats even if they are not in the correct order in the best seat table
+- [x] Expand the algorithm so that a user can request multiple seats (together) in a row that has available seats one next to the other in the best way
+- [ ] get multiple seats even if they are not in the correct order in the best seat table
+- [ ] Web app that shows a seat view and shows the best available seats based on the requested number of seats

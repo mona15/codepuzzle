@@ -49,8 +49,8 @@ To install and run this application, you need:
 ## Installation
 The commands below set everything up to run the application:
 ```
-$ git clone https://github.com/miguelgrinberg/flask-examples.git
-$ cd flask-examples
+$ git clone https://github.com/mona15/codepuzzle.git
+$ cd codepuzzle
 $ virtualenv venv
 $ . venv/bin/activate
 (venv)$ pip install -r requirements.txt
