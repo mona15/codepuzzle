@@ -1,2 +1,2 @@
-- [x]Expand the algorithm so that a user can request multiple seats (together)
+- [x] Expand the algorithm so that a user can request multiple seats (together)
 - [ ] Web app that shows a seat view and shows the best available seats based on the requested number of seats
