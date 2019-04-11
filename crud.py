@@ -29,9 +29,9 @@ class Venue(Resource):
         return '', 204
 
     def put(self, venue_id):
-        """this function update number of rows columns and add open seats
-           and return the updated venue
-           parameters that are passed rows, columns, open-seats
+        """this function updates number of rows, columns and add open seats
+           and returns the updated venue
+           parameters that can be passed are rows, columns, open-seats
         """
         args = parser.parse_args()
         selected_venue = VENUES[venue_id]
@@ -51,7 +51,6 @@ class Venue(Resource):
                 }
         update_venue.update({"seats": open_seats})
 
-        #venue = {'venue': args['venue']}
         VENUES[venue_id] = update_venue
         return update_venue, 201
 
